@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: hsl(347, 87%, 71%);
+
+}
+.about{
+    background: url("https://images.pexels.com/photos/4240497/pexels-photo-4240497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")no-repeat;
+    background-size:55%;
+    background-color: aliceblue;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-section{
+    width: 55%;
+    float: right;
+    background-color: pink;
+    padding: 140px;
+    box-shadow: 12px 12px 8px rgb(0, 0, 0, 0.3);
+}
+.inner-section h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    padding-right: 15%;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    
+    list-style: none;
+    display: inline-block;
+    margin-left: 80px;
+}
+nav ul li a{
+   text-decoration: none;
+   color: rgb(10, 9, 9);
+   font-size: 20px; 
+}

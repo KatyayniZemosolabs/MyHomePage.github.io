@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color:  hsl(347, 87%, 71%);
+}
+.container{
+    width: 100%;
+    height: 100%;
+    padding-top: 8%;
+    /* background-image: url('https://i0.wp.com/www.csscodelab.com/wp-content/uploads/2020/03/html-background-color-gradient-css-animation.png?w=1059&ssl=1'); */
+    /* background-color: pink;     */
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right:5%;
+    box-sizing: border-box;
+}
+.navbar{
+    padding-right: 5%;
+    padding-bottom: 3%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    
+    list-style: none;
+    display: inline-block;
+    margin-left: 80px;
+}
+nav ul li a{
+   text-decoration: none;
+   color: #fff;
+   font-size: 20px; 
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50% ;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+}
+button{
+    width: 120px;
+    color: #000;
+    font-size: 15px ;
+    padding: 15px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 220px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url("https://images.pexels.com/photos/6587608/pexels-photo-6587608.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-position: center;
+    background-size: cover ;
+    transition: transform 0.5;
+}
+/* .card{
+    width: 25%;
+    height: 30%;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url("https://images.pexels.com/photos/6587608/pexels-photo-6587608.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-position: center;
+    background-size: cover ;
+    transition: transform 0.5;
+} */
+.card1{
+    background-image: url("https://images.pexels.com/photos/6587608/pexels-photo-6587608.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.card2{
+    background-image: url("https://images.pexels.com/photos/1486974/pexels-photo-1486974.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+.card3{
+    background-image: url("https://images.pexels.com/photos/5746154/pexels-photo-5746154.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+}
+.card4{
+    background-image: url("https://images.pexels.com/photos/2103903/pexels-photo-2103903.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+}
+.card5{
+    background-image: url("https://images.pexels.com/photos/226424/pexels-photo-226424.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+}
+.card6{
+    background-image: url("https://images.pexels.com/photos/4198566/pexels-photo-4198566.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
